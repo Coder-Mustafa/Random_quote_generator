@@ -1,7 +1,8 @@
-<html>
+<html >
 <head>
   <title>Random Quote Generator</title>
 <!--  <link rel="stylesheet" href="home.css">  -->
+<meta charset="ISO-8859-1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -10,21 +11,39 @@
 </head>
 <body>
   <div class="container">
-    <div class = "container" style = "padding:10px;">
+
     <div id="quote-container" class="quote-box">
-      <i class="fa fa-quote-left fa-3x" aria-hidden="true"></i>
-      <blockquote><div id="quote-content"> </div><i class="fa fa-quote-right fa-3x" aria-hidden="true"></i></blockquote>
-    
-      <div id="quote-author"></div>
+      <div class="container" style="padding:10px;">
+
+      <p>
+
+
+        <blockquote>
+
+          <p>
+            <i class="fa fa-quote-left fa-2x" aria-hidden="true"ghjk></i>
+            <span id ="quote-content"> </span>
+            <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
+
+          </p>
+
+        <p>
+          <i class = "fa fa-minus" aria-hidden="true"></i>
+          <span id = "quote-author"></span>
+        </p>
+        </blockquote>
+      </div>
+
 
       <button id="tweet" class="btn btn-default " target = "_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></button>
 
       <button id="next" class="btn btn-default btn-md pull-right">New Quote</button>
-      </div>
     </div>
 
-
   </div>
+
+
+
 
 </body>
 <script src="home.js"  charset="utf-8"></script>
