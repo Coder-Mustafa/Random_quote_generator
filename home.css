@@ -14,7 +14,7 @@ position: fixed;
 
 
 }
-.qod-text{
+.text{
   align: center;
   margin :8% auto auto auto;
   padding: 20px 5px 20px 20px;
@@ -26,7 +26,7 @@ position: fixed;
   font-size: 20px;
 
 }
-.qod-author{
+.author{
   text-align: right;
 }
 
