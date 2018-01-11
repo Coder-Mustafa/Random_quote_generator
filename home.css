@@ -2,6 +2,9 @@ body{
   background-color:black;
 }
 
+i,p{
+  display: inline-block;
+}
 
 
 .qoute-container{
