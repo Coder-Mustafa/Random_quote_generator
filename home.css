@@ -1,0 +1,33 @@
+body{
+  background-color:black;
+}
+
+
+
+.qoute-container{
+align: center;
+margin : 8% auto auto auto;
+position: fixed;
+
+
+}
+.qod-text{
+  align: center;
+  margin :8% auto auto auto;
+  padding: 20px 5px 20px 20px;
+  background-color: white;
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  display: table;
+  font-size: 20px;
+
+}
+.qod-author{
+  text-align: right;
+}
+
+#next{
+    align: right;
+    padding: 10px;
+}
